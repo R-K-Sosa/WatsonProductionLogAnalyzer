@@ -1,0 +1,655 @@
+Date And Time, Log Entry
+"[3/6/18 1:52:17:517 UTC]"," 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 4.308 seconds 
+ " 
+"[3/6/18 1:52:17:787 UTC]"," 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started. 
+ " 
+"[3/6/18 1:52:24:037 UTC]"," 00000024 com.ibm.ws.config.xml.internal.ConfigEvaluator               W CWWKG0033W: The value [/home/vcap/app/wlp/usr/shared/config/] specified for the reference attribute [filesetRef] was not found in the configuration. 
+ " 
+"[3/6/18 1:52:24:151 UTC]"," 0000001d com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting... 
+ " 
+"[3/6/18 1:52:24:849 UTC]"," 00000027 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 8080. 
+ " 
+"[3/6/18 1:52:24:894 UTC]"," 0000001d com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.  
+ " 
+"[3/6/18 1:52:25:603 UTC]"," 0000001d .management.client.service.internal.ManagedBeanContainerImpl I CWSCX0122I: Register management Bean provider: com.ibm.ws.cloudoe.management.client.provider.dump.JavaDumpBeanProvider@10f3b034. 
+ " 
+"[3/6/18 1:52:25:607 UTC]"," 0000001d .management.client.service.internal.ManagedBeanContainerImpl I CWSCX0122I: Register management Bean provider: com.ibm.ws.cloudoe.management.client.provider.logging.LibertyLoggingBeanProvider@557616fc. 
+ " 
+"[3/6/18 1:52:26:473 UTC]"," 00000027 com.ibm.ws.security.token.ltpa.internal.LTPAKeyInfoManager   I CWWKS4103I: Creating the LTPA keys. This may take a few seconds. 
+ " 
+"[3/6/18 1:52:26:506 UTC]"," 0000001d ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated.  
+ " 
+"[3/6/18 1:52:27:148 UTC]"," 0000001d com.ibm.ws.security.wim.VMMService                           I CWIMK0009I: The user registry federation service is ready. 
+ " 
+"[3/6/18 1:52:27:308 UTC]"," 0000001d com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully. 
+ " 
+"[3/6/18 1:52:27:311 UTC]"," 0000001d com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used. 
+ " 
+"[3/6/18 1:52:27:313 UTC]"," 0000001d com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully. 
+ " 
+"[3/6/18 1:52:27:442 UTC]"," 00000027 com.ibm.ws.security.token.ltpa.internal.LTPAKeyInfoManager   A CWWKS4104A: LTPA keys created in 0.969 seconds. LTPA key file: /home/vcap/app/wlp/usr/servers/BatchProcessTriggerAppServer/resources/security/ltpa.keys 
+ " 
+"[3/6/18 1:52:27:447 UTC]"," 00000027 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0008I: The security service is ready. 
+ " 
+"[3/6/18 1:52:27:451 UTC]"," 00000027 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.978 seconds. 
+ " 
+"[3/6/18 1:52:27:871 UTC]"," 00000031 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application BatchProcessTriggerApp. 
+ " 
+"[3/6/18 1:52:28:230 UTC]"," 00000037 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: com.ibm.ws.cloudoe.management.client.liberty.connector. 
+ " 
+"[3/6/18 1:52:28:233 UTC]"," 00000037 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module com.ibm.ws.cloudoe.management.client.liberty.connector has been bound to default_host. 
+ " 
+"[3/6/18 1:52:28:235 UTC]"," 00000037 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://a7b761a4-83f6-438c-65db-3dc233101815:8080/IBMMGMTRest/ 
+ " 
+"[3/6/18 1:52:28:275 UTC]"," 00000037 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory. 
+ " 
+"[3/6/18 1:52:28:280 UTC]"," 00000037 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/IBMMGMTRest 
+ " 
+"[3/6/18 1:52:28:298 UTC]"," 00000037 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation. 
+ " 
+"[3/6/18 1:52:28:307 UTC]"," 00000031 org.jboss.weld.Version                                       I WELD-000900: 2.4.5 (Final) 
+ " 
+"[3/6/18 1:52:28:499 UTC]"," 00000037 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully. 
+ " 
+"[3/6/18 1:52:57:893 UTC]"," 00000034 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0022W: Application BatchProcessTriggerApp has not started in 30.022 seconds. 
+ " 
+"[3/6/18 1:52:58:033 UTC]"," 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0015I: The server has the following interim fixes active in the runtime: PI90804. For a full listing of installed fixes run: productInfo version --ifixes 
+ " 
+"[3/6/18 1:52:58:034 UTC]"," 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [jsp-2.3, ejbLite-3.2, servlet-3.1, jsf-2.2, ssl-1.0, jndi-1.0, localConnector-1.0, federatedRegistry-1.0, appSecurity-2.0, jdbc-4.1, icap:managementConnector-1.0, jaxrs-2.0, el-3.0, jaxrsClient-2.0, concurrent-1.0, cloudant-1.0, ldapRegistry-3.0, json-1.0, jpaContainer-2.1, cdi-1.2, distributedMap-1.0, cloudAutowiring-1.0, jpa-2.1]. 
+ " 
+"[3/6/18 1:52:58:035 UTC]"," 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 40.521 seconds. 
+ " 
+"[3/6/18 1:52:58:036 UTC]"," 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server BatchProcessTriggerAppServer is ready to run a smarter planet. 
+ " 
+"[3/6/18 1:53:05:669 UTC]"," 00000031 com.ibm.ws.ejbcontainer.osgi.internal.EJBRuntimeImpl         I CNTR4000I: The BatchProcessTriggerApp.war EJB module in the BatchProcessTriggerApp application is starting. 
+ " 
+"[3/6/18 1:53:05:684 UTC]"," 00000031 com.ibm.ws.ejbcontainer.runtime.AbstractEJBRuntime           I CNTR0167I: The server is binding the com.ibm.b2b.batchservices.ejb.ReportTimer interface of the ReportTimer enterprise bean in the BatchProcessTriggerApp.war module of the BatchProcessTriggerApp application.  The binding location is: java:global/BatchProcessTriggerApp/ReportTimer!com.ibm.b2b.batchservices.ejb.ReportTimer 
+ " 
+"[3/6/18 1:53:05:716 UTC]"," 00000031 com.ibm.ws.ejbcontainer.runtime.AbstractEJBRuntime           I CNTR0219I: The server created 0 persistent automatic timer or timers and 4 non-persistent automatic timer or timers for the BatchProcessTriggerApp.war module. 
+ " 
+"[3/6/18 1:53:05:717 UTC]"," 00000031 com.ibm.ws.ejbcontainer.osgi.internal.EJBRuntimeImpl         I CNTR4001I: The BatchProcessTriggerApp.war EJB module in the BatchProcessTriggerApp application has started successfully. 
+ " 
+"[3/6/18 1:53:05:719 UTC]"," 00000031 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: BatchProcessTriggerApp. 
+ " 
+"[3/6/18 1:53:05:720 UTC]"," 00000031 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module BatchProcessTriggerApp has been bound to default_host. 
+ " 
+"[3/6/18 1:53:05:720 UTC]"," 00000031 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://a7b761a4-83f6-438c-65db-3dc233101815:8080/b2binvoice/BatchProcessTriggerApp/ 
+ " 
+"[3/6/18 1:53:05:724 UTC]"," 00000031 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/b2binvoice/BatchProcessTriggerApp 
+ " 
+"[3/6/18 1:53:05:725 UTC]"," 00000031 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation. 
+ " 
+"[3/6/18 1:53:06:765 UTC]"," 00000031 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application BatchProcessTriggerApp started in 38.894 seconds. 
+ " 
+"[3/6/18 1:53:06:866 UTC]"," 0000003b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/vcap/app/wlp/usr/servers/BatchProcessTriggerAppServer/logs/state/plugin-cfg.xml. 
+ " 
+"[3/6/18 1:53:25:194 UTC]"," 0000003b com.ibm.ws.ssl.internal.SSLConfigValidator                   A CWPKI0817A: The default SSL configuration expects a <keyStore> element with an id value of defaultKeyStore, and a password. The defaultKeyStore <keyStore> element is missing, or the password is not specified. Either define the missing element: <keyStore id=""defaultKeyStore"" password=""yourpassword"" />, or change the default SSL configuration to use an existing keystore. See the following example: <ssl id=""defaultSSLConfig"" keyStoreRef=""newKeyStore"" />. 
+ " 
+"[3/6/18 2:00:01:113 UTC]"," 0000009b com.ibm.ws.recoverylog.spi.RecoveryDirectorImpl              I CWRLS0010I: Performing recovery processing for local WebSphere server (BatchProcessTriggerAppServer). 
+ " 
+"[3/6/18 2:00:01:195 UTC]"," 0000009f com.ibm.ws.recoverylog.spi.LogHandle                         I CWRLS0007I: No existing recovery log files found in /home/vcap/app/wlp/usr/servers/BatchProcessTriggerAppServer/tranlog//tranlog. Cold starting the recovery log. 
+ " 
+"[3/6/18 2:00:01:197 UTC]"," 0000009f com.ibm.ws.recoverylog.spi.LogFileHandle                     I CWRLS0006I: Creating new recovery log file /home/vcap/app/wlp/usr/servers/BatchProcessTriggerAppServer/tranlog//tranlog/log1. 
+ " 
+"[3/6/18 2:00:01:211 UTC]"," 0000009f com.ibm.ws.recoverylog.spi.LogFileHandle                     I CWRLS0006I: Creating new recovery log file /home/vcap/app/wlp/usr/servers/BatchProcessTriggerAppServer/tranlog//tranlog/log2. 
+ " 
+"[3/6/18 2:00:02:214 UTC]"," 0000009f com.ibm.ws.recoverylog.spi.LogHandle                         I CWRLS0007I: No existing recovery log files found in /home/vcap/app/wlp/usr/servers/BatchProcessTriggerAppServer/tranlog//partnerlog. Cold starting the recovery log. 
+ " 
+"[3/6/18 2:00:02:215 UTC]"," 0000009f com.ibm.ws.recoverylog.spi.LogFileHandle                     I CWRLS0006I: Creating new recovery log file /home/vcap/app/wlp/usr/servers/BatchProcessTriggerAppServer/tranlog//partnerlog/log1. 
+ " 
+"[3/6/18 2:00:02:223 UTC]"," 0000009f com.ibm.ws.recoverylog.spi.LogFileHandle                     I CWRLS0006I: Creating new recovery log file /home/vcap/app/wlp/usr/servers/BatchProcessTriggerAppServer/tranlog//partnerlog/log2. 
+ " 
+"[3/6/18 2:00:02:294 UTC]"," 0000009b com.ibm.ws.recoverylog.spi.RecoveryDirectorImpl              I CWRLS0012I: All persistent services have been directed to perform recovery processing for this WebSphere server (BatchProcessTriggerAppServer). 
+ " 
+"[3/6/18 2:00:02:294 UTC]"," 0000009f com.ibm.tx.jta.impl.RecoveryManager                          I WTRN0135I: Transaction service recovering no transactions. 
+ " 
+"[3/6/18 2:00:02:649 UTC]"," 0000009b SystemOut                                                    O Properties -:-EnvironmentProperties-:- getEnvironmentProperties -:- entry 
+ " 
+"[3/6/18 2:00:02:741 UTC]"," 0000009b SystemOut                                                    O Properties -:-EnvironmentProperties-:- getVCAPApplicationValues -:- entry 
+ " 
+"[3/6/18 2:00:02:746 UTC]"," 0000009b ReportTimer                                                  I B2BXFormLog: ReportTimer: triggerProcessEPDFSignedInvoice:  GetSignedEPDF triggered at: Tue Mar 06 02:00:02 UTC 2018 
+ " 
+"[3/6/18 2:00:04:052 UTC]"," 0000009b ReportTimer                                                  I B2BXFormLog: ReportTimer: processList:  No files found in sterling for processing 
+ " 
+"[3/6/18 2:30:01:004 UTC]"," 00000192 ReportTimer                                                  I B2BXFormLog: ReportTimer: triggerProcessIDOCInvoice:  GetSignedIDOC triggered at: Tue Mar 06 02:30:01 UTC 2018 
+ " 
+"[3/6/18 2:30:02:202 UTC]"," 00000192 ReportTimer                                                  I B2BXFormLog: ReportTimer: processList:  No files found in sterling for processing 
+ " 
+"[3/6/18 3:00:01:003 UTC]"," 0000028b ReportTimer                                                  I B2BXFormLog: ReportTimer: triggerProcessEPDFSignedInvoice:  GetSignedEPDF triggered at: Tue Mar 06 03:00:01 UTC 2018 
+ " 
+"[3/6/18 3:00:02:501 UTC]"," 0000028b ReportTimer                                                  I B2BXFormLog: ReportTimer: processList:  No files found in sterling for processing 
+ " 
+"[3/6/18 3:30:01:025 UTC]"," 0000038f ReportTimer                                                  I B2BXFormLog: ReportTimer: triggerProcessIDOCInvoice:  GetSignedIDOC triggered at: Tue Mar 06 03:30:01 UTC 2018 
+ " 
+"[3/6/18 3:30:02:367 UTC]"," 0000038f ReportTimer                                                  I B2BXFormLog: ReportTimer: processList:  No files found in sterling for processing 
+ " 
+"[3/6/18 4:00:01:004 UTC]"," 0000047a ReportTimer                                                  I B2BXFormLog: ReportTimer: triggerProcessEPDFSignedInvoice:  GetSignedEPDF triggered at: Tue Mar 06 04:00:01 UTC 2018 
+ " 
+"[3/6/18 4:00:04:907 UTC]"," 0000047a ReportTimer                                                  I B2BXFormLog: ReportTimer: processList:  No files found in sterling for processing 
+ " 
+"[3/6/18 4:30:01:002 UTC]"," 000005dc ReportTimer                                                  I B2BXFormLog: ReportTimer: triggerProcessIDOCInvoice:  GetSignedIDOC triggered at: Tue Mar 06 04:30:01 UTC 2018 
+ " 
+"[3/6/18 4:30:02:061 UTC]"," 000005dc ReportTimer                                                  I B2BXFormLog: ReportTimer: processList:  No files found in sterling for processing 
+ " 
+"[3/6/18 5:00:01:002 UTC]"," 000006d6 ReportTimer                                                  I B2BXFormLog: ReportTimer: triggerProcessEPDFSignedInvoice:  GetSignedEPDF triggered at: Tue Mar 06 05:00:01 UTC 2018 
+ " 
+"[3/6/18 5:00:02:856 UTC]"," 000006d6 ReportTimer                                                  I B2BXFormLog: ReportTimer: processList:  No files found in sterling for processing 
+ " 
+"[3/6/18 5:30:01:004 UTC]"," 00000829 ReportTimer                                                  I B2BXFormLog: ReportTimer: triggerProcessIDOCInvoice:  GetSignedIDOC triggered at: Tue Mar 06 05:30:01 UTC 2018 
+ " 
+"[3/6/18 5:30:02:231 UTC]"," 00000829 ReportTimer                                                  I B2BXFormLog: ReportTimer: processList:  No files found in sterling for processing 
+ " 
+"[3/6/18 6:00:01:005 UTC]"," 0000091e ReportTimer                                                  I B2BXFormLog: ReportTimer: triggerProcessEPDFSignedInvoice:  GetSignedEPDF triggered at: Tue Mar 06 06:00:01 UTC 2018 
+ " 
+"[3/6/18 6:00:02:390 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0064PJKNE.6802776019.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:03:461 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0064PJKNE.6802776021.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:04:234 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0064PJKNE.6803144585.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:04:972 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0064PJKNE.6802776027.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:05:641 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0064PJKNE.6803144586.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:06:270 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0064PJKNE.6803144584.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:06:910 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0064PJKNE.6802776033.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:07:460 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0064PJKNE.6802776032.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:07:977 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0064PJKNE.6803144591.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:08:624 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0064PJKNE.6803144588.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:09:213 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6803144592.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:09:742 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6803144589.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:10:328 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WHWCC2.6802776031.20180305.D.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:10:865 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6803144590.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:11:397 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WHWCC2.6802776042.20180305.D.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:11:980 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGVA5H.6803144596.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:12:495 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0064PJKNE.6803144598.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:13:027 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0064PJKNE.6803144599.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:13:564 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0064PJKNE.6803144600.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:14:147 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6802776104.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:14:737 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGQCGY.6802776102.20180305.D.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:15:291 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6802776103.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:15:869 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6803144601.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:16:430 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGQCGY.6802776106.20180305.D.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:16:999 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGQCGY.6802776105.20180305.D.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:17:597 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGQCGY.6802776107.20180305.D.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:18:163 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6802776110.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:18:744 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGQCGY.6802776108.20180305.D.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:19:289 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6802776109.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:19:831 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6803144603.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:20:387 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGQCGY.6802776111.20180305.D.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:20:893 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6803144602.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:21:425 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGQCGY.6802776112.20180305.D.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:22:136 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6803144604.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:22:696 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGQCGY.6802776113.20180305.D.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:23:246 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGQCGY.6802776114.20180305.D.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:23:798 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6803144605.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:24:289 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGQCGY.6802776115.20180305.D.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:24:850 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGQCGY.6802776116.20180305.D.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:25:418 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6803144606.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:26:047 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGQCGY.6802776117.20180305.D.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:26:580 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6803144607.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:27:004 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6802776120.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:27:546 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGQCGY.6802776119.20180305.D.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:28:067 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6802776123.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:28:602 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6803144608.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:29:361 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0075NSJY0.6802776155.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:29:810 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0075NSJY0.6802776160.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:30:352 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6803144624.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:30:906 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6802776232.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:31:586 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGVA5H.6803144625.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:32:291 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGVA5H.6802776249.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:32:838 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6802776245.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:33:320 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0064PJKNE.6802776246.20180305.D.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:33:847 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S007634TM7.6803144627.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:34:370 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S0064PJKNE.6803144626.20180305.C.E.PDF._.P._.DSW_Signed.PDF 
+ " 
+"[3/6/18 6:00:34:827 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGVA5H.6803144635.20180305.C.E.PDF._.P._.HDW_Signed.PDF 
+ " 
+"[3/6/18 6:00:35:477 UTC]"," 0000091e FTPUtil                                                      I B2BXFormLog: FTPUtil: getRemoteFiles:  Retrieving remote file: EPDF.DE.S006WGVA5H.6802776257.20180305.D.E.PDF._.P._.SVC_Signed.PDF 
+ " 
+"[3/6/18 6:00:41:733 UTC]"," 00000938 ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:41:758 UTC]"," 0000094e ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:41:858 UTC]"," 00000951 ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:41:870 UTC]"," 0000092e ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:41:874 UTC]"," 0000092b ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:41:882 UTC]"," 00000949 com.cloudant.client.api.Database                             W Index already exists : '{""name"":""InvoiceStatusInfo1"",""ddoc"":""InviceStatusInfo1"",""index"":{""fields"":[{""statusMsg"":""asc""}]}}' 
+ " 
+"[3/6/18 6:00:41:899 UTC]"," 0000093b ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:41:931 UTC]"," 00000928 ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:41:942 UTC]"," 0000094a com.cloudant.client.api.Database                             W Index already exists : '{""name"":""InvoiceStatusInfo1"",""ddoc"":""InviceStatusInfo1"",""index"":{""fields"":[{""statusMsg"":""asc""}]}}' 
+ " 
+"[3/6/18 6:00:41:960 UTC]"," 0000093f ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:41:985 UTC]"," 00000959 ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:011 UTC]"," 00000927 ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:028 UTC]"," 0000095d ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:069 UTC]"," 00000936 ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:080 UTC]"," 0000095b ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:104 UTC]"," 0000095e ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:152 UTC]"," 0000092b ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:123) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:155 UTC]"," 00000937 ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:162 UTC]"," 00000929 ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:165 UTC]"," 00000933 ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:174 UTC]"," 0000094e ManageEPDFInvoiceAck                                         E B2BXFormLog: ManageEPDFInvoiceAck: pubStatusMsg:  java.lang.NullPointerException 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:634) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:123) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:261 UTC]"," 0000095a com.cloudant.client.api.Database                             W Index already exists : '{""name"":""InvoiceStatusInfo1"",""ddoc"":""InviceStatusInfo1"",""index"":{""fields"":[{""statusMsg"":""asc""}]}}' 
+ " 
+"[3/6/18 6:00:42:282 UTC]"," 0000093c AttachmentProfileStoreImpl                                   E B2BXFormLog: AttachmentProfileStoreImpl: init:  java.lang.IllegalArgumentException: No enum constant com.cloudant.client.api.model.IndexField.SortOrder.string 
+ 	at java.lang.Enum.valueOf(Unknown Source) 
+ 	at com.cloudant.client.api.model.IndexField$SortOrder.valueOf(IndexField.java:28) 
+ 	at com.cloudant.client.internal.util.IndexDeserializer.deserialize(IndexDeserializer.java:56) 
+ 	at com.cloudant.client.internal.util.IndexDeserializer.deserialize(IndexDeserializer.java:32) 
+ 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) 
+ 	at com.google.gson.Gson.fromJson(Gson.java:887) 
+ 	at com.google.gson.Gson.fromJson(Gson.java:852) 
+ 	at com.cloudant.client.org.lightcouch.internal.CouchDbUtil.getResponseList(CouchDbUtil.java:209) 
+ 	at com.cloudant.client.api.Database.listIndices(Database.java:414) 
+ 	at com.ibm.b2b.profile.db.ProfileStoreImpl.init(ProfileStoreImpl.java:58) 
+ 	at com.ibm.b2b.profile.db.ProfileStoreImpl.<init>(ProfileStoreImpl.java:45) 
+ 	at com.ibm.b2b.helper.Util.getProfile(Util.java:174) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:695) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:284 UTC]"," 0000094f AttachmentProfileStoreImpl                                   E B2BXFormLog: AttachmentProfileStoreImpl: init:  java.lang.IllegalArgumentException: No enum constant com.cloudant.client.api.model.IndexField.SortOrder.string 
+ 	at java.lang.Enum.valueOf(Unknown Source) 
+ 	at com.cloudant.client.api.model.IndexField$SortOrder.valueOf(IndexField.java:28) 
+ 	at com.cloudant.client.internal.util.IndexDeserializer.deserialize(IndexDeserializer.java:56) 
+ 	at com.cloudant.client.internal.util.IndexDeserializer.deserialize(IndexDeserializer.java:32) 
+ 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) 
+ 	at com.google.gson.Gson.fromJson(Gson.java:887) 
+ 	at com.google.gson.Gson.fromJson(Gson.java:852) 
+ 	at com.cloudant.client.org.lightcouch.internal.CouchDbUtil.getResponseList(CouchDbUtil.java:209) 
+ 	at com.cloudant.client.api.Database.listIndices(Database.java:414) 
+ 	at com.ibm.b2b.profile.db.ProfileStoreImpl.init(ProfileStoreImpl.java:58) 
+ 	at com.ibm.b2b.profile.db.ProfileStoreImpl.<init>(ProfileStoreImpl.java:45) 
+ 	at com.ibm.b2b.helper.Util.getProfile(Util.java:174) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:695) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:331 UTC]"," 00000958 AttachmentProfileStoreImpl                                   E B2BXFormLog: AttachmentProfileStoreImpl: init:  java.lang.IllegalArgumentException: No enum constant com.cloudant.client.api.model.IndexField.SortOrder.string 
+ 	at java.lang.Enum.valueOf(Unknown Source) 
+ 	at com.cloudant.client.api.model.IndexField$SortOrder.valueOf(IndexField.java:28) 
+ 	at com.cloudant.client.internal.util.IndexDeserializer.deserialize(IndexDeserializer.java:56) 
+ 	at com.cloudant.client.internal.util.IndexDeserializer.deserialize(IndexDeserializer.java:32) 
+ 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) 
+ 	at com.google.gson.Gson.fromJson(Gson.java:887) 
+ 	at com.google.gson.Gson.fromJson(Gson.java:852) 
+ 	at com.cloudant.client.org.lightcouch.internal.CouchDbUtil.getResponseList(CouchDbUtil.java:209) 
+ 	at com.cloudant.client.api.Database.listIndices(Database.java:414) 
+ 	at com.ibm.b2b.profile.db.ProfileStoreImpl.init(ProfileStoreImpl.java:58) 
+ 	at com.ibm.b2b.profile.db.ProfileStoreImpl.<init>(ProfileStoreImpl.java:45) 
+ 	at com.ibm.b2b.helper.Util.getProfile(Util.java:174) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:695) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:323 UTC]"," 00000951 AttachmentProfileStoreImpl                                   E B2BXFormLog: AttachmentProfileStoreImpl: init:  java.lang.IllegalArgumentException: No enum constant com.cloudant.client.api.model.IndexField.SortOrder.string 
+ 	at java.lang.Enum.valueOf(Unknown Source) 
+ 	at com.cloudant.client.api.model.IndexField$SortOrder.valueOf(IndexField.java:28) 
+ 	at com.cloudant.client.internal.util.IndexDeserializer.deserialize(IndexDeserializer.java:56) 
+ 	at com.cloudant.client.internal.util.IndexDeserializer.deserialize(IndexDeserializer.java:32) 
+ 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) 
+ 	at com.google.gson.Gson.fromJson(Gson.java:887) 
+ 	at com.google.gson.Gson.fromJson(Gson.java:852) 
+ 	at com.cloudant.client.org.lightcouch.internal.CouchDbUtil.getResponseList(CouchDbUtil.java:209) 
+ 	at com.cloudant.client.api.Database.listIndices(Database.java:414) 
+ 	at com.ibm.b2b.profile.db.ProfileStoreImpl.init(ProfileStoreImpl.java:58) 
+ 	at com.ibm.b2b.profile.db.ProfileStoreImpl.<init>(ProfileStoreImpl.java:45) 
+ 	at com.ibm.b2b.helper.Util.getProfile(Util.java:174) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:695) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:123) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:376 UTC]"," 00000935 AttachmentProfileStoreImpl                                   E B2BXFormLog: AttachmentProfileStoreImpl: init:  java.lang.IllegalArgumentException: No enum constant com.cloudant.client.api.model.IndexField.SortOrder.string 
+ 	at java.lang.Enum.valueOf(Unknown Source) 
+ 	at com.cloudant.client.api.model.IndexField$SortOrder.valueOf(IndexField.java:28) 
+ 	at com.cloudant.client.internal.util.IndexDeserializer.deserialize(IndexDeserializer.java:56) 
+ 	at com.cloudant.client.internal.util.IndexDeserializer.deserialize(IndexDeserializer.java:32) 
+ 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) 
+ 	at com.google.gson.Gson.fromJson(Gson.java:887) 
+ 	at com.google.gson.Gson.fromJson(Gson.java:852) 
+ 	at com.cloudant.client.org.lightcouch.internal.CouchDbUtil.getResponseList(CouchDbUtil.java:209) 
+ 	at com.cloudant.client.api.Database.listIndices(Database.java:414) 
+ 	at com.ibm.b2b.profile.db.ProfileStoreImpl.init(ProfileStoreImpl.java:58) 
+ 	at com.ibm.b2b.profile.db.ProfileStoreImpl.<init>(ProfileStoreImpl.java:45) 
+ 	at com.ibm.b2b.helper.Util.getProfile(Util.java:174) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:695) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processAckMsg(ManageEPDFInvoiceAck.java:122) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.processFile(ManageEPDFInvoiceAck.java:93) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.run(ManageEPDFInvoiceAck.java:66) 
+ 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) 
+ 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) 
+ 	at java.lang.Thread.run(Unknown Source) 
+  
+ " 
+"[3/6/18 6:00:42:551 UTC]"," 0000093d AttachmentProfileStoreImpl                                   E B2BXFormLog: AttachmentProfileStoreImpl: init:  java.lang.IllegalArgumentException: No enum constant com.cloudant.client.api.model.IndexField.SortOrder.string 
+ 	at java.lang.Enum.valueOf(Unknown Source) 
+ 	at com.cloudant.client.api.model.IndexField$SortOrder.valueOf(IndexField.java:28) 
+ 	at com.cloudant.client.internal.util.IndexDeserializer.deserialize(IndexDeserializer.java:56) 
+ 	at com.cloudant.client.internal.util.IndexDeserializer.deserialize(IndexDeserializer.java:32) 
+ 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) 
+ 	at com.google.gson.Gson.fromJson(Gson.java:887) 
+ 	at com.google.gson.Gson.fromJson(Gson.java:852) 
+ 	at com.cloudant.client.org.lightcouch.internal.CouchDbUtil.getResponseList(CouchDbUtil.java:209) 
+ 	at com.cloudant.client.api.Database.listIndices(Database.java:414) 
+ 	at com.ibm.b2b.profile.db.ProfileStoreImpl.init(ProfileStoreImpl.java:58) 
+ 	at com.ibm.b2b.profile.db.ProfileStoreImpl.<init>(ProfileStoreImpl.java:45) 
+ 	at com.ibm.b2b.helper.Util.getProfile(Util.java:174) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.update(InvRptCloudDB.java:695) 
+ 	at com.ibm.b2b.cloudant.helper.InvRptCloudDB.create(InvRptCloudDB.java:585) 
+ 	at com.ibm.b2b.invoice.cloudant.helper.InvoiceStatusCRUDOperations.create(InvoiceStatusCRUDOperations.java:492) 
+ 	at com.ibm.b2b.batchservices.invoice.ManageEPDFInvoiceAck.pubStatusMsg(ManageEPDFInvoiceAck.java:199) 
+ " 
